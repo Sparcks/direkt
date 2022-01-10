@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Direkt"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Navigation manager to separate navigation logic from your core app code, when not using Storyboard segues."
   s.description      = <<-DESC
 This is a Swift port of [DRYNavigationManager](https://github.com/appfoundry/DRYNavigationManager)
@@ -12,7 +12,7 @@ It follows same architectural concept, but leverages Swift programming technique
   s.homepage         = "https://github.com/appfoundry/direkt"
   s.license          = 'MIT'
   s.author           = { "Joris Dubois" => "joris.dubois@appfoundry.be", "Jonathan Esposito" => "jonathan.esposito@appfoundry.be", "Jens Goeman" => "jens.goeman@appfoundry.be", "Damian Malarczyk" => "damian.malarczyk@appfoundry.be" }
-  s.source           = { :git => "https://github.com/appfoundry/direkt.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Sparcks/direkt.git", :branch => "feature/update-xcode", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/appfoundrybe'
 
   s.platform     = :ios, '8.0'
@@ -20,5 +20,5 @@ It follows same architectural concept, but leverages Swift programming technique
   s.requires_arc = true
 
   s.source_files = 'Direkt/**/*.swift'
-  s.swift_version = '4.1'
+  s.swift_version = '5.5.2'
 end

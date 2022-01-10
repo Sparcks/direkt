@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Direkt::Direkt"
-               BuildableName = "Direkt.framework"
+               BlueprintIdentifier = "Direkt"
+               BuildableName = "Direkt"
                BlueprintName = "Direkt"
-               ReferencedContainer = "container:Direkt.xcodeproj">
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DirektTests"
+               BuildableName = "DirektTests"
+               BlueprintName = "DirektTests"
+               ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +46,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Direkt::DirektTests"
-               BuildableName = "DirektTests.xctest"
+               BlueprintIdentifier = "DirektTests"
+               BuildableName = "DirektTests"
                BlueprintName = "DirektTests"
-               ReferencedContainer = "container:Direkt.xcodeproj">
+               ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,6 +71,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "Direkt"
+            BuildableName = "Direkt"
+            BlueprintName = "Direkt"
+            ReferencedContainer = "container:">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
